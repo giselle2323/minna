@@ -135,11 +135,24 @@ body, html {
 }
 
 .about__text-container {
-  text-align: center;
+  padding: 10px 0;
 }
 
 .about__image {
   width: 100%;
+}
+
+.about__text {
+  padding: 10px 0;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.about__text__heading {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
 }
 @media screen and (min-width: 768px) {
 
