@@ -7,6 +7,8 @@ body, html {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Header */
+
 .header {
   display:flex;
   flex-direction: column;
@@ -53,6 +55,8 @@ body, html {
   outline: none;
   border: none;
 }
+
+/* Hero section */
 
 .hero {
   background-color: #111827;
@@ -105,6 +109,8 @@ body, html {
   max-width: 100%;
 }
 
+/* Tech Stack section */
+
 .stack-container {
   display: flex;
   flex-direction: column;
@@ -119,9 +125,10 @@ body, html {
 }
 
 .stack-cards>* {
-  flex: 1 1 33.33%;
+  flex: 1 1 200px;
   margin: 10px;
 }
+
 .stack__heading {
   text-align: center;
   font-size: 25px;
@@ -145,7 +152,7 @@ body, html {
 .stack_text {
   margin: 10px;
 }
-
+/* About section */
 .about-container {
   display: flex;
   flex-direction: column;
@@ -194,16 +201,8 @@ body, html {
  margin: 10px 0;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+/* Testimonial */
 
-html,
-body {
-  height: 100%;
-}
 .testimonial-container {
   padding: 20px 40px;
 }
